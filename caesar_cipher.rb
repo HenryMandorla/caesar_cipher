@@ -9,7 +9,7 @@ def caesar_cipher(string, number)
             shifted_char = alphabet[(index - number) % 26]
             shifted_char
         else
-                char
+            char
         end
     end
     new_string = new_chars.join("")
